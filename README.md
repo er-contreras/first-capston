@@ -1,22 +1,19 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-setup-and-mobile-version-skeleton
+# Animation and Music
 
-> This is about using figma to built our mobile project.
+> This is about a animation and music page.
 
-![screenshot](./SS/app-screenshot.png)
-![screenshot](./SS/about-screenshot.png)
-![screenshot](./SS/icons-screenshot.png)
-![screenshot](./SS/work-section.png)
-![screenshot](./SS/formscreenshot.png)
+![screenshot](./screen-shoots/home.png)
+![screenshot](./screen-shoots/about.png)
+
 
 Mobile ScreenShots
 
 ## Link of Web Page
 
-- GitHub Pages: [@eri8-9](https://eri8-9.github.io/Portfolio-setup-and-mobile-version-skeleton/
-)
+- GitHub Pages: [@eri8-9](https://eri8-9.github.io/concert-project/)
 
 ## Built With
 

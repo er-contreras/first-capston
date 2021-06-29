@@ -131,9 +131,10 @@ main button {
   background-color: hsla(0, 0%, 100%, 0.091);
   margin: 1rem;
   padding: 1rem;
+  width: 37rem;
 }
 
-.card li {
+.card ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
