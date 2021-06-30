@@ -32,7 +32,7 @@ html {
 }
 
 .bg-menu {
-  background-image: url(/bg-images/arm.jpeg);
+  background-image: url(./bg-images/arm.jpeg);
   background-repeat: no-repeat;
   background-position-y: center;
   background-size: 100%;

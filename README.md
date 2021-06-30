@@ -1,12 +1,15 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Animation and Music
+# Programming languages
 
-> This is about a animation and music page.
+> This is about programming languages.
 
-![screenshot](./screen-shoots/home.png)
-![screenshot](./screen-shoots/about.png)
+- Desktop Version
+![screenshot](./screen-shoots/DesktopScreenS.png)
+- Mobile Version
+![screenshot](./screen-shoots/mobileScreenS.png)
+![screenshot](./screen-shoots/mobileSSbottom.png)
 
 
 Mobile ScreenShots
