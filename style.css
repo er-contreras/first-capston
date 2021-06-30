@@ -32,7 +32,9 @@ html {
 }
 
 .bg-menu {
-  background-image: url(./bg-images/arm.jpeg);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.79)),
+    url(./bg-images/arm.jpeg);
   background-repeat: no-repeat;
   background-position-y: center;
   background-size: 100%;
@@ -45,8 +47,8 @@ html {
 main button {
   background-color: var(--red);
   border: 0;
-  width: 30rem;
-  height: 8rem;
+  width: 28rem;
+  height: 7rem;
   color: white;
   font-size: 1.7rem;
   margin: 4rem 0;
@@ -198,6 +200,11 @@ main button {
   min-height: 100vh;
 }
 
+.menu-tab a {
+  color: rgb(185, 185, 185);
+  text-decoration: none;
+}
+
 .menu-tab-header {
   display: flex;
   width: 90%;
@@ -220,6 +227,97 @@ main button {
   justify-content: space-around;
   margin: 1rem 0;
   color: white;
+}
+
+/* Feature Speakers Section */
+#feature-speakers-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.divHeader {
+  display: flex;
+  flex-direction: column;
+  margin: 3.5rem 0 0 0;
+}
+
+.header1 {
+  font-weight: 400;
+}
+
+.divRedLine {
+  width: 3rem;
+  height: 1px;
+  background-color: #ec5242;
+  margin: 0.9rem auto 2rem;
+}
+
+.divSpeakers {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+
+.divSpeaker {
+  display: flex;
+}
+
+.imgSpeaker {
+  max-width: 10rem;
+  height: 10rem;
+  padding-top: 1rem;
+}
+
+.speakerInfo {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  height: 10rem;
+  padding: 0 2rem;
+  margin: 1rem;
+}
+
+.divh1 {
+  font-size: 1.5rem;
+}
+
+.divh2 {
+  font-size: 1rem;
+  color: #ec5242;
+  font-weight: 400;
+}
+
+.grayLine {
+  background-color: rgb(211, 211, 211);
+  max-width: 1.5rem;
+  height: 1px;
+  margin: 0.7rem 0;
+}
+
+.paragraph {
+  font-size: 0.8rem;
+}
+
+/* Toggle btn */
+#toggle-button {
+  max-width: 100%;
+  margin: 2rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+  font-weight: 100;
+  background-color: white;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+#toggle-button i {
+  color: red;
+}
+
+.target {
+  display: none;
 }
 
 /* Mobile media querie block */
@@ -257,6 +355,7 @@ main button {
     margin: 0.4rem 1rem;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
 
   .bg-menu {
@@ -287,6 +386,12 @@ main button {
     height: 40px;
     list-style-type: none;
     margin: 1rem 0;
+    cursor: pointer;
+  }
+
+  .second-nav a {
+    text-decoration: none;
+    color: black;
   }
 
   #logo {
@@ -357,5 +462,21 @@ main button {
   .link-below a {
     color: white;
     font-size: 1rem;
+  }
+
+  /* Speakers Section */
+  .divSpeakers {
+    max-width: 80rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #toggle-button {
+    display: none;
+  }
+
+  .target {
+    display: inherit;
   }
 }

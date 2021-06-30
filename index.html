@@ -31,8 +31,8 @@
     </nav>
     <nav class="second-nav">
       <ul>
-        <li id="logo"><img src="./bg-images/micro.png" alt="logo"></li>
-        <li>About</li>
+        <li id="logo"><img src="./bg-images/micro.png" alt="logo"><a href="#bg-menu"></a></li>
+        <li><a href="#about">About</a></li>
         <li>Assembler</li>
         <li>C</li>
         <li>JavaScript</li>
@@ -49,19 +49,17 @@
         </div>
         <div class="menu-tab-links">
           <h2>Home</h2>
-          <span class="material-icons">east
-          </span>
+          <span id="arrowClose" class="material-icons"><a href="#bg-menu-btn">east</a></span>
         </div>
         <div class="menu-tab-links">
           <h2>About</h2>
-          <span class="material-icons">east
-          </span>
+          <span id="arrowClose2" class="material-icons"><a href="#about">east</a></span>
         </div>
       </div>
     </div>
     <!-- Mobile Home page -->
     <!-- <div id="bg-menu-absolute"></div> -->
-    <div class="bg-menu">
+    <div id="bg-menu" class="bg-menu">
       <button id="bg-menu-btn" type="button">
         <span class="btn-line"></span>
         <span class="btn-line"></span>
@@ -152,6 +150,7 @@
         <li><a href="#">SEE THE WHOLE PROGRAM</a></li>
       </ul>
     </main>
+    <div id="feature-speakers-container"></div>
   </div>
   <script src="script.js"></script>
 </body>

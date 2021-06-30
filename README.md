@@ -7,9 +7,13 @@
 
 - Desktop Version
 ![screenshot](./screen-shoots/DesktopScreenS.png)
+
 - Mobile Version
+
 ![screenshot](./screen-shoots/mobileScreenS.png)
 ![screenshot](./screen-shoots/mobileSSbottom.png)
+![screenshot](./screen-shoots/speakers.png)
+![screenshot](./screen-shoots/Spekaers2.png)
 
 
 Mobile ScreenShots
