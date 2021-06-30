@@ -5,98 +5,154 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animation with Music</title>
+  <title>Hardware & Software</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
 
 <body>
   <div id="main-container">
-    <section id="bg-menu">
-      <button type="button">
+    <!-- Top Navigations Bar -->
+    <nav class="first-nav">
+      <ul>
+        <li class="social-media-icons"><i class="fab fa-facebook-f"></i></li>
+        <li class="social-media-icons"><i class="fab fa-twitter"></i></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+    </nav>
+    <nav class="second-nav">
+      <ul>
+        <li id="logo"><img src="/bg-images/micro.png" alt="logo"></li>
+        <li>About</li>
+        <li>Assembler</li>
+        <li>C</li>
+        <li>JavaScript</li>
+        <li>Zsh</li>
+        <li>Interfaces</li>
+      </ul>
+    </nav>
+    <!-- Mobile Menu -->
+    <div class="menu-container">
+      <div class="menu-tab">
+        <div class="menu-tab-header">
+          <h1>Hello! Welcome</h1>
+          <button type="button" class="menu-tab-close">X</button>
+        </div>
+        <div class="menu-tab-links">
+          <h2>Home</h2>
+          <span class="material-icons">east
+          </span>
+        </div>
+        <div class="menu-tab-links">
+          <h2>About</h2>
+          <span class="material-icons">east
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Home page -->
+    <!-- <div id="bg-menu-absolute"></div> -->
+    <div class="bg-menu">
+      <button id="bg-menu-btn" type="button">
         <span class="btn-line"></span>
         <span class="btn-line"></span>
         <span class="btn-line"></span>
       </button>
-      <h2>"Making things possible"</h2>
-    </section>
+      <h2>"Make things possible"</h2>
+    </div>
 
     <header id="bg-header">
-      <h1>CREATIVE, ALL YOU NEED TO YOUR WEB SITE BE ANIMATED</h1>
+      <h1>What makes technology possible?</h1>
       <div class="description-header">
-        Making your web page more animated you can find some fun on it and at the same time, your public can interact without getting bored using it.
+        How the hardware gets connected with the software? This like other important questions we need to have in our
+        minds at the moment to develop something related to tech.
       </div>
       <div class="date">
         <h2>2021.10.15(THU) ~ 16(FRI)</h2>
         <p>
-          @ Animation, Art, music and more
+          @ Tech, art and more
         <p>
       </div>
     </header>
-
+    <!-- Mobile About -->
     <main id="about">
-      <h1 class="about-header">Main Program</h1>
-
-      <div class="red-line"></div>
-      <div class="card">
-        <ul>
-          <li>
-            <img src="/icons/1.png" alt="">
-          </li>
-        </ul>
-        <h1>Music</h1>
-        <p>Listen great music with wonderful animation .
-        </p>
-      </div>
-      <div class="card">
-        <ul>
-          <li>
-            <img src="/icons/2.png" alt="">
-          </li>
-        </ul>
-        <h1>Animation Exhibition</h1>
-        <p>Music move pixels with just one click.
-        </p>
-      </div>
-      <div class="card">
-        <ul>
-          <li>
-            <img src="/icons/3.png" alt="">
-          </li>
-        </ul>
-        <h1>Forum</h1>
-        <p>Come with your friends to this talk about how animation works behind the scenes.
-        </p>
-      </div>
-      <div class="card">
-        <ul>
-          <li>
-            <img src="/icons/4.png" alt="">
-          </li>
-        </ul>
-        <h1>Workshop</h1>
-        <p>We have more tha just one way to make the things possible in our interactive workshop.
-        </p>
-      </div>
-      <div class="card">
-        <ul>
-          <li>
-            <img src="/icons/5.png" alt="">
-          </li>
-        </ul>
-        <h1>Choose</h1>
-        <p>Choose your favourute music and we can make it animated.
-        </p>
+      <div>
+        <h1 class="about-header">Main Introduction</h1>
+        <div class="red-line"></div>
       </div>
 
-      <button type="button">Join to see our interactives pages</button>
+      <div class="cards-container">
+        <div class="card">
+          <ul>
+            <li>
+              <i class="fas fa-cogs"></i>
+            </li>
+          </ul>
+          <h1>Assembler</h1>
+          <p>
+            This language stay more close with the hardware than anyone.
+          </p>
+        </div>
+        <div class="card">
+          <ul>
+            <li>
+              <i class="fab fa-contao"></i>
+            </li>
+          </ul>
+          <h1>C.</h1>
+          <p>
+            This one is also close to the hardware but not more that assembler.
+          </p>
+        </div>
+        <div class="card">
+          <ul>
+            <li>
+              <i class="fab fa-js"></i>
+            </li>
+          </ul>
+          <h1>JavaScript</h1>
+          <p>
+            The tool that all webdev wants to master.
+          </p>
+        </div>
+        <div class="card">
+          <ul>
+            <li>
+              <i class="fas fa-terminal"></i>
+            </li>
+          </ul>
+          <h1>Zsh</h1>
+          <p>
+            Master Zsh is essential to work more faster.
+          </p>
+        </div>
+        <div class="card">
+          <ul>
+            <li>
+              <i class="fas fa-desktop"></i>
+            </li>
+          </ul>
+          <h1>Interface</h1>
+          <p>
+            A tool that help every people manage their computer.
+          </p>
+        </div>
+      </div>
+      <button type="button">Join to see more</button>
+      <ul  class="link-below">
+        <li><a href="#">SEE THE WHOLE PROGRAM</a></li>
+      </ul>
     </main>
   </div>
   <script src="script.js"></script>
 </body>
-
 </html>

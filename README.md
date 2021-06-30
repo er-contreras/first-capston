@@ -51,6 +51,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- We use [Cindy Shin Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) example to built this page.
 
 ## 📝 License
 

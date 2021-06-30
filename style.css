@@ -14,20 +14,32 @@ html {
   --gray: #d3d3d3;
 }
 
+.social-media-icons {
+  color: white;
+  font-size: 2rem;
+}
+
 #main-container {
-  /* width: 768px; */
   min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f5f5;
 }
 
 /* Menu Section */
-#bg-menu {
-  background-image: url(/bg-images/menu-bg.jpg);
+.material-icons {
+  font-size: 30px;
+  color: rgb(174, 174, 174);
+}
+
+.bg-menu {
+  background-image: url(/bg-images/arm.jpeg);
   background-repeat: no-repeat;
   background-position-y: center;
+  background-size: 100%;
   margin: 0 0 0.1rem;
-  padding: 20px;
+  padding: 0 20px;
+  width: 100vw;
+  height: 12rem;
 }
 
 main button {
@@ -41,7 +53,7 @@ main button {
   letter-spacing: 0.09rem;
 }
 
-#bg-menu button {
+.bg-menu button {
   width: 5rem;
   height: 5rem;
   display: flex;
@@ -70,8 +82,9 @@ main button {
   margin-bottom: 1rem;
 }
 
-#bg-menu h2 {
+.bg-menu h2 {
   color: var(--red);
+  font-weight: 400;
 }
 
 #bg-header {
@@ -85,8 +98,13 @@ main button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 9rem;
-  padding: 2rem;
+  min-width: 9rem;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+.menu-tab-header h1 {
+  font-size: 3rem;
 }
 
 /* Header Section */
@@ -95,6 +113,7 @@ main button {
   font-size: 3rem;
   line-height: 2.9rem;
   margin-bottom: 1.3rem;
+  font-weight: 900;
 }
 
 .description-header {
@@ -125,13 +144,21 @@ main button {
   margin: 0.2rem auto 3rem;
 }
 
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin: 3rem 0;
+}
+
 .card {
   display: flex;
   flex-direction: row;
   background-color: hsla(0, 0%, 100%, 0.091);
-  margin: 1rem;
-  padding: 1rem;
-  width: 37rem;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  width: 35.5rem;
 }
 
 .card ul {
@@ -139,15 +166,196 @@ main button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0.5rem;
+  min-width: 6rem;
 }
 
-.card img {
-  padding: 1rem;
+.card li {
+  font-size: 4rem;
 }
 
 .card p {
+  display: flex;
+  align-items: center;
   color: #bfbfbf;
-  padding: 1rem;
+  padding: 0.5rem;
   line-height: 1.8rem;
   font-size: 1.1rem;
+  max-width: 19rem;
+}
+
+/* Menu Tab */
+.menu-container {
+  display: none;
+  width: 100vw;
+}
+
+.menu-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(148, 3, 3);
+  min-height: 100vh;
+}
+
+.menu-tab-header {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 1rem 0 6rem 0;
+  border: 2px solid rgb(225, 113, 27);
+  padding: 2rem;
+  color: rgb(222, 222, 222);
+}
+
+.menu-tab-header button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.menu-tab-links {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin: 1rem 0;
+  color: white;
+}
+
+/* Mobile media querie block */
+@media screen and (max-width: 768px) {
+  .first-nav {
+    display: none;
+  }
+
+  .second-nav {
+    display: none;
+  }
+
+  .link-below {
+    display: none;
+  }
+}
+
+/* Desktop Version with media quieries --------------------- */
+@media screen and (min-width: 768px) {
+  .first-nav {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .first-nav ul {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    color: white;
+  }
+
+  .first-nav li {
+    list-style-type: none;
+    margin: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .bg-menu {
+    padding: 20px;
+  }
+
+  .bg-menu button {
+    display: none;
+  }
+
+  .bg-menu h2 {
+    margin: 7rem 10rem 0;
+    font-size: 2.5rem;
+  }
+
+  .second-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10rem;
+  }
+
+  .second-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    list-style-type: none;
+    margin: 1rem 0;
+  }
+
+  #logo {
+    margin: 0 9rem 0 0;
+    max-width: 10rem;
+  }
+
+  #logo img {
+    width: 70%;
+  }
+
+  #bg-header {
+    margin: 0 20rem 0 10rem;
+  }
+
+  .card h1 {
+    padding: 0;
+    margin: 1rem auto;
+  }
+
+  #bg-header h1 {
+    margin: 0 3rem 1rem 0;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 900;
+  }
+
+  .description-header {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+
+  .card {
+    flex-direction: column;
+    margin: 1px;
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .card ul {
+    text-align: center;
+  }
+
+  .card p {
+    padding: 0;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  #about button {
+    display: none;
+  }
+
+  .link-below {
+    font-size: 2rem;
+    margin-bottom: 6rem;
+    list-style-type: none;
+  }
+
+  .link-below a {
+    color: white;
+    font-size: 1rem;
+  }
 }
