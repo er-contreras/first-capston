@@ -20,7 +20,7 @@ Mobile ScreenShots
 
 ## Link of Web Page
 
-- GitHub Pages: [@eri8-9](https://eri8-9.github.io/concert-project/)
+- GitHub Pages: [@eri8-9](https://eri8-9.github.io/first-capston/)
 
 ## Built With
 
