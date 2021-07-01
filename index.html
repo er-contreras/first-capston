@@ -6,11 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hardware & Software</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/main.css">
   <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -31,8 +33,8 @@
     </nav>
     <nav class="second-nav">
       <ul>
-        <li id="logo"><img src="./bg-images/micro.png" alt="logo"><a href="#bg-menu"></a></li>
-        <li><a href="#about">About</a></li>
+        <li id="logo"><a href="index.html"><img src="./icons/micro.png" alt="logo"></a></li>
+        <li><a href="about.html">About</a></li>
         <li>Assembler</li>
         <li>C</li>
         <li>JavaScript</li>
@@ -49,16 +51,27 @@
         </div>
         <div class="menu-tab-links">
           <h2>Home</h2>
-          <span id="arrowClose" class="material-icons"><a href="#bg-menu-btn">east</a></span>
+          <span id="arrowClose" class="material-icons"><a href="index.html">east</a></span>
         </div>
         <div class="menu-tab-links">
           <h2>About</h2>
-          <span id="arrowClose2" class="material-icons"><a href="#about">east</a></span>
+          <span id="arrowClose2" class="material-icons"><a href="about.html">east</a></span>
+        </div>
+        <div class="menu-tab-links">
+          <h2>JavaScript</h2>
+          <span class="material-icons"><a href="#">east</a></span>
+        </div>
+        <div class="menu-tab-links">
+          <h2>Zsh</h2>
+          <span class="material-icons"><a href="#">east</a></span>
+        </div>
+        <div class="menu-tab-links">
+          <h2>Interfaces</h2>
+          <span class="material-icons"><a href="#">east</a></span>
         </div>
       </div>
     </div>
     <!-- Mobile Home page -->
-    <!-- <div id="bg-menu-absolute"></div> -->
     <div id="bg-menu" class="bg-menu">
       <button id="bg-menu-btn" type="button">
         <span class="btn-line"></span>
@@ -69,7 +82,7 @@
     </div>
 
     <header id="bg-header">
-      <h1>What makes technology possible?</h1>
+      <h2 class="bgh2color">What makes technology possible?</h2>
       <div class="description-header">
         How the hardware gets connected with the software? This like other important questions we need to have in our
         minds at the moment to develop something related to tech.
@@ -95,7 +108,7 @@
               <i class="fas fa-cogs"></i>
             </li>
           </ul>
-          <h1>Assembler</h1>
+          <h2>Assembler</h2>
           <p>
             This language stay more close with the hardware than anyone.
           </p>
@@ -106,7 +119,7 @@
               <i class="fab fa-contao"></i>
             </li>
           </ul>
-          <h1>C.</h1>
+          <h2>C.</h2>
           <p>
             This one is also close to the hardware but not more that assembler.
           </p>
@@ -117,7 +130,7 @@
               <i class="fab fa-js"></i>
             </li>
           </ul>
-          <h1>JavaScript</h1>
+          <h2>JavaScript</h2>
           <p>
             The tool that all webdev wants to master.
           </p>
@@ -128,7 +141,7 @@
               <i class="fas fa-terminal"></i>
             </li>
           </ul>
-          <h1>Zsh</h1>
+          <h2>Zsh</h2>
           <p>
             Master Zsh is essential to work more faster.
           </p>
@@ -139,19 +152,45 @@
               <i class="fas fa-desktop"></i>
             </li>
           </ul>
-          <h1>Interface</h1>
+          <h2>Interface</h2>
           <p>
             A tool that help every people manage their computer.
           </p>
         </div>
       </div>
       <button type="button">Join to see more</button>
-      <ul  class="link-below">
+      <ul class="link-below">
         <li><a href="#">SEE THE WHOLE PROGRAM</a></li>
       </ul>
     </main>
     <div id="feature-speakers-container"></div>
+
+    <footer>
+      <div class="partner">
+        <section>
+          <h2>Partner</h2>
+          <div class="red-line"></div>
+        </section>
+        <div class="brands">
+          <ul>
+            <li><i class="fab fa-watchman-monitoring"></i>WatchMan</li>
+            <li><i class="fas fa-video"></i>CinemaMaker</li>
+            <li><i class="fas fa-motorcycle"></i>HarleyDavidson</li>
+            <li><i class="fab fa-monero"></i>Monero</li>
+            <li><i class="fas fa-tv"></i>Samsung</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footPage">
+        <ul><li><i class="fas fa-microchip"></i>ChipSet</li></ul>
+        <div class="rights">
+          <h6>2021 ChipSet Some Rights Rserved</h6>
+          <p>ChipSet is an enterprise prepare with a well prepare licence that helps to support us on every way.</p>
+        </div>
+      </div>
+    </footer>
   </div>
-  <script src="script.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
+
 </html>

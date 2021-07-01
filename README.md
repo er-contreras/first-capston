@@ -28,7 +28,11 @@ Mobile ScreenShots
 
 ## Live Demo
 
-[Live Demo Link](https://www.loom.com/share/bee3615c1ee14d31a471484fc03e35df)
+[Live Demo Link](https://www.loom.com/share/bce69d74380141f996e1acff12aca0d1)
+
+## Video Presentation
+
+[Video Presentation](https://www.loom.com/share/bce69d74380141f996e1acff12aca0d1)
 
 ## Skills
 
@@ -66,4 +70,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
