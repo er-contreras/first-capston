@@ -28,7 +28,7 @@ Mobile ScreenShots
 
 ## Live Demo
 
-[Live Demo Link](https://www.loom.com/share/bce69d74380141f996e1acff12aca0d1)
+[Live Demo Link](https://eri8-9.github.io/first-capston/)
 
 ## Video Presentation
 
