@@ -1,26 +1,38 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-setup-and-mobile-version-skeleton
+# Programming languages
 
-> This is about using figma to built our mobile project.
+> This is about programming languages.
 
-![screenshot](./SS/app-screenshot.png)
-![screenshot](./SS/about-screenshot.png)
-![screenshot](./SS/icons-screenshot.png)
-![screenshot](./SS/work-section.png)
-![screenshot](./SS/formscreenshot.png)
+- Desktop Version
+![screenshot](./screen-shoots/DesktopScreenS.png)
+
+- Mobile Version
+
+![screenshot](./screen-shoots/mobileScreenS.png)
+![screenshot](./screen-shoots/mobileSSbottom.png)
+![screenshot](./screen-shoots/speakers.png)
+![screenshot](./screen-shoots/Spekaers2.png)
+
 
 Mobile ScreenShots
 
 ## Link of Web Page
 
-- GitHub Pages: [@eri8-9](https://eri8-9.github.io/Portfolio-setup-and-mobile-version-skeleton/
-)
+- GitHub Pages: [@eri8-9](https://eri8-9.github.io/first-capston/)
 
 ## Built With
 
 - HTML, CSS & JS
+
+## Live Demo
+
+[Live Demo Link](https://eri8-9.github.io/first-capston/)
+
+## Video Presentation
+
+[Video Presentation](https://www.loom.com/share/67f5a6e944b44e33a81bcbf36ee36cfb)
 
 ## Skills
 
@@ -54,7 +66,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- We use [Cindy Shin Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) example to built this page.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.

@@ -1,0 +1,676 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  --red: #ec5242;
+  --black: #272a31;
+  --gray: #d3d3d3;
+}
+
+.bg-top {
+  background-color: #f0f0f0;
+}
+
+.social-media-icons {
+  color: white;
+  font-size: 2rem;
+}
+
+#main-container {
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.second-nav {
+  box-shadow: 0 5px 5px #d3d3d3;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+/* Menu Section */
+.material-icons {
+  font-size: 30px;
+  color: rgb(174, 174, 174);
+}
+
+main button {
+  background-color: var(--red);
+  border: 0;
+  width: 28rem;
+  height: 7rem;
+  color: white;
+  font-size: 1.7rem;
+  margin: 4rem 0;
+  letter-spacing: 0.09rem;
+}
+
+.bg-menu button {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 5rem;
+}
+
+.bg-menu h2 {
+  color: var(--red);
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn-line {
+  margin: 0.3rem;
+  width: 4rem;
+  height: 5px;
+  background-color: rgb(0, 0, 0);
+}
+
+.date {
+  margin: 1rem 0 4rem;
+  color: #272a31;
+  text-align: center;
+}
+
+.date h2 {
+  font-size: 1rem;
+  color: #494949;
+  margin-bottom: 1rem;
+  width: 1rem;
+}
+
+.contact {
+  font-size: 1rem;
+  color: #494949;
+  font-weight: 400;
+}
+
+#bg-header {
+  margin: 0 0 2rem;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.menu-tab-header h1 {
+  font-size: 3rem;
+  color: rgb(94, 94, 94);
+}
+
+.about h2 {
+  font-weight: 500;
+}
+
+.placeArg h2 {
+  margin: 1rem;
+}
+
+.placePru h2 {
+  margin: 1rem;
+}
+
+.partner h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+/* Header Section */
+#bg-header h2 {
+  font-size: 3rem;
+  color: var(--red);
+  text-align: center;
+  line-height: 2.9rem;
+  margin-bottom: 1.3rem;
+  font-weight: 900;
+}
+
+.bgh2color {
+  color: var(--red);
+}
+
+.description-header {
+  border: 1px solid rgb(224, 224, 224);
+  background-color: white;
+  line-height: 1.8rem;
+  color: rgb(87, 87, 87);
+  padding: 1rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+/* About Section */
+#about {
+  background-color: white;
+  padding-top: 2rem;
+}
+
+#logo-about-img {
+  margin: 3rem 0;
+  max-width: 10rem;
+}
+
+#logo-about-img img {
+  width: 80%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-line {
+  width: 3rem;
+  height: 1px;
+  background-color: #ec5242;
+  margin: 1rem auto;
+}
+
+.about p {
+  text-align: center;
+  margin: 0 3rem;
+}
+
+.about-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(212, 212, 212);
+  width: 35rem;
+  margin: 2rem;
+}
+
+.about-logo ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.squares {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.pp {
+  text-align: center;
+  margin: 3rem;
+}
+
+.placeArg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 20rem;
+  background-image:
+    linear-gradient(rgba(148, 1, 1, 0.815), rgba(172, 15, 15, 0.795)),
+    url(../bg-images/imgArgentina.jpg);
+  margin: 2rem;
+  color: white;
+}
+
+.placePru {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 20rem;
+  background-image: linear-gradient(rgba(148, 1, 1, 0.8), rgba(172, 15, 15, 0.79)), url(../bg-images/imgPrussia.jpg);
+  margin: 2rem;
+  color: white;
+}
+
+/* Menu Tab */
+.menu-container {
+  display: none;
+  width: 100vw;
+}
+
+.menu-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  min-height: 100vh;
+}
+
+.menu-tab a {
+  color: rgb(185, 185, 185);
+  text-decoration: none;
+}
+
+.menu-tab-header {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 1rem 0 6rem 0;
+  border: 2px solid rgba(0, 0, 0, 0.466);
+  padding: 2rem;
+  color: rgb(222, 222, 222);
+  background-color: white;
+}
+
+.menu-tab-header button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+}
+
+.menu-tab-links {
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+  color: white;
+  padding: 2rem;
+  box-shadow: 0 5px 5px rgb(150, 150, 150);
+}
+
+/* Feature Speakers Section */
+#feature-speakers-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.divHeader {
+  display: flex;
+  flex-direction: column;
+  margin: 3.5rem 0 0 0;
+}
+
+.header1 {
+  font-weight: 400;
+}
+
+.divRedLine {
+  width: 3rem;
+  height: 1px;
+  background-color: #ec5242;
+  margin: 0.9rem auto 2rem;
+}
+
+.divSpeakers {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+
+.divSpeaker {
+  display: flex;
+}
+
+.imgSpeaker {
+  max-width: 10rem;
+  height: 10rem;
+  padding-top: 1rem;
+}
+
+.speakerInfo {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  height: 10rem;
+  padding: 0 2rem;
+  margin: 1rem;
+}
+
+.divh1 {
+  font-size: 1.5rem;
+}
+
+.divh2 {
+  font-size: 1rem;
+  color: #ec5242;
+  font-weight: 400;
+}
+
+.grayLine {
+  background-color: rgb(211, 211, 211);
+  max-width: 1.5rem;
+  height: 1px;
+  margin: 0.7rem 0;
+}
+
+.paragraph {
+  font-size: 0.8rem;
+}
+
+/* Toggle btn */
+#toggle-button {
+  max-width: 100%;
+  margin: 2rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+  font-weight: 100;
+  background-color: white;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+.brands i {
+  font-size: 3.5rem;
+}
+
+.footPage i {
+  font-size: 2rem;
+}
+
+#toggle-button i {
+  color: red;
+}
+
+.target {
+  display: none;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  color: rgb(100, 100, 100);
+  min-width: 100vw;
+}
+
+.partner div {
+  margin: 0 0 1rem;
+}
+
+footer section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0 0 0;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+}
+
+.brands ul {
+  display: flex;
+}
+
+.brands li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3rem;
+  height: 10rem;
+}
+
+.footPage li {
+  font-size: 2rem;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+.rights {
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 5rem 4rem;
+}
+
+.rights p {
+  margin-top: 1rem;
+}
+
+/* Mobile media querie block */
+@media screen and (max-width: 768px) {
+  .first-nav {
+    display: none;
+  }
+
+  .second-nav {
+    display: none;
+  }
+
+  .link-below {
+    display: none;
+  }
+
+  .home-link {
+    display: none;
+  }
+
+  .about-description {
+    display: none;
+  }
+
+  .about-p {
+    display: none;
+  }
+}
+
+/* Desktop Version with media quieries --------------------- */
+@media screen and (min-width: 768px) {
+  .description-header {
+    display: none;
+  }
+
+  .first-nav {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .first-nav ul {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    color: white;
+  }
+
+  .first-nav li {
+    list-style-type: none;
+    margin: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .bg-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 10rem;
+  }
+
+  .home-link ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .home-link li {
+    margin: 0.2rem;
+  }
+
+  .home-link i {
+    margin: 0.2rem;
+  }
+
+  .bg-menu button {
+    display: none;
+  }
+
+  .bg-menu h2 {
+    display: none;
+  }
+
+  .second-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10rem;
+  }
+
+  .second-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    list-style-type: none;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+
+  .second-nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #logo-about {
+    margin: 0 9rem 0 0;
+    max-width: 10rem;
+  }
+
+  #logo-about img {
+    width: 70%;
+  }
+
+  #bg-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partner h2 {
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  #bg-header h2 {
+    width: 60rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 900;
+  }
+
+  .contach2 {
+    margin: 0 auto;
+  }
+
+  .link-below {
+    font-size: 2rem;
+    margin-bottom: 6rem;
+    list-style-type: none;
+  }
+
+  .link-below a {
+    color: white;
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  footer section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0 0 0;
+  }
+
+  .brands {
+    display: flex;
+    justify-content: center;
+  }
+
+  .brands ul {
+    display: flex;
+  }
+
+  .brands li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5rem 2rem;
+  }
+
+  .brands i {
+    font-size: 3.5rem;
+  }
+
+  .date a {
+    color: black;
+    font-weight: 700;
+  }
+
+  .about p {
+    max-width: 60rem;
+  }
+
+  .about-description {
+    max-width: 60rem;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: white;
+    padding: 2rem 4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    color: rgb(92, 92, 92);
+    margin: 2rem 0;
+  }
+
+  .about-p {
+    max-width: 60rem;
+    background-color: white;
+    padding: 2rem 4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    color: rgb(92, 92, 92);
+    margin: 2rem 0;
+  }
+
+  .about-logo {
+    padding: 2rem;
+  }
+
+  .places {
+    display: flex;
+  }
+}
