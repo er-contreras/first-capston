@@ -32,7 +32,7 @@ Mobile ScreenShots
 
 ## Video Presentation
 
-[Video Presentation](https://www.loom.com/share/bce69d74380141f996e1acff12aca0d1)
+[Video Presentation](https://www.loom.com/share/67f5a6e944b44e33a81bcbf36ee36cfb)
 
 ## Skills
 
