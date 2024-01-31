@@ -56,8 +56,8 @@ Mobile ScreenShots
 👤 **Christian Erick Contreras**
 
 - GitHub: [@er-contreras](https://github.com/er-contreras)
-- Linkedin: [LinkedIn](https:linkedin.com/in/er-contreras-9945b820b)
-- Twitter: [@er_contreras_](https://twitter.com/er_contreras__)
+- Linkedin: [LinkedIn](https://www.linkedin.com/in/er-contreras/)
+- Twitter: [@er_contreras_](https://twitter.com/er_contreras_)
 
 ## Show your support
 
