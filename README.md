@@ -20,7 +20,7 @@ Mobile ScreenShots
 
 ## Link of Web Page
 
-- GitHub Pages: [@eri8-9](https://er-contreras.github.io/first-capston/)
+- GitHub Pages: [@er-contreras](https://er-contreras.github.io/first-capston/)
 
 ## Built With
 
@@ -55,9 +55,9 @@ Mobile ScreenShots
 
 👤 **Christian Erick Contreras**
 
-- GitHub: [@eri8-9](https://github.com/er-contreras)
+- GitHub: [@er-contreras](https://github.com/er-contreras)
 - Linkedin: [LinkedIn](https:linkedin.com/in/er-contreras-9945b820b)
-- Twitter: [@ChristianErick_](https://twitter.com/er_contreras__)
+- Twitter: [@er_contreras_](https://twitter.com/er_contreras__)
 
 ## Show your support
 
