@@ -20,7 +20,7 @@ Mobile ScreenShots
 
 ## Link of Web Page
 
-- GitHub Pages: [@er-contreras](https://er-contreras.github.io/first-capston/)
+- GitHub Pages: [@er-contreras](https://er-contreras.github.io/)
 
 ## Built With
 
